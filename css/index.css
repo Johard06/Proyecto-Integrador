@@ -6,27 +6,33 @@ body{
 .titulo{
     color: white;
     margin: 0%;
-    font-family: STEPS;
+    font-family: Deltha;
+    font-size: 65px;
 }
 
 .cabecera{
-    background-color: #940604;
+    background-image: url(../assets/imagenes/Fondo\ negro\ triángulos\ abstractos\ _\ Foto\ Premium.jpg);
     padding: 20px;
-    border-bottom: 10px solid #B8862F;
     padding-bottom: 0%;
+}
+
+.cabecera2{
+    background-color: #520800;
+    height: 25px;
 }
 
 .barra1{
     display: flex;
     flex-direction: row-reverse;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    height: 25px;
 }
 
 .barra2{
     display: flex;
     justify-content: space-evenly; 
     list-style: none;
-    padding: 20px;
     margin: 0%;
        
 }
@@ -39,7 +45,7 @@ a{
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 
 .fondo{
-    background-color: #393633;
+    background-color: #e0e0e0;
     margin: 0%;
     padding: 100px;
     display: flex;
@@ -54,10 +60,9 @@ a{
     text-align: center;
     height: 500px;
     width: 325px;
-    border: 3px solid #B8862F;
     border-radius: 15px;
     justify-content: space-around;
-
+    border: 1px solid #b7b6b6;
 }
 
 .imgndx{
@@ -76,16 +81,15 @@ a{
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 
 footer{
-    background-color: #940604;
+    background-color: #520800;
     color: white;
     padding: 10px;
     display: flex;
-    border-top: #B8862F 10px solid;
     text-align: center;
     justify-content: space-around;
     padding-bottom: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
 }
 
 .info{
