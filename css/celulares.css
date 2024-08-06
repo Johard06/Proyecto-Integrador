@@ -57,16 +57,22 @@ a{
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 700px;
+    height: auto;
     width: 325px;
     border-radius: 15px;
-    justify-content: center;
+    justify-content: start;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border: 1px solid #b7b6b6;
     align-items: center;
 }
 
 .fig{
     margin-top: 40px;
+}
+
+.fig2{
+    margin-top: 20px;
 }
 
 .imgndx{
@@ -82,34 +88,78 @@ a{
     width: 110px;
 }
 
+.imgndx3{
+    height: 20px;
+}
+
+.precio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.boton{
+    background-color: #4b4b4b;
+    border: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 summary{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
     font-size: 10px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .especificaciones{
     display: flex;
     height: 65px;
-    justify-content: space-between;
-    width: 175px;
+    justify-content: space-evenly;
+    width: 250px;
     border-top: solid black 1px;
 }
 
 .especificaciones2{
     display: flex;
     height: 30px;
-    justify-content: space-between;
-    width: 175px;
+    justify-content: space-evenly;
+    width: 250px;
     border-top: solid black 1px;
 }
 
 .especificaciones3{
     display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.especificaciones4{
+    display: flex;
     height: 30px;
-    justify-content: space-between;
-    width: 175px;
+    justify-content: space-evenly;
+    width: 250px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.especificaciones5{
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    width: 250px;
+    margin-bottom: 5px;   
 }
 
 .info2{
@@ -131,7 +181,6 @@ summary{
     text-align: center;
     padding: 0%;
     margin: 5px;
-    padding-top: 0%;
     width: 100px;
     align-items: start;
     justify-content: start;
@@ -139,8 +188,29 @@ summary{
 
 .info4{
     margin: 2px;
-    padding-left: 20px;
+    padding-left: 10px;
+    width: 100px;
+    text-align: left;
 }
+
+.info5{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 12px;
+    text-align: center;
+    padding: 0%;
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    align-items: start;
+    justify-content: start;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
