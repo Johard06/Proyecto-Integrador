@@ -13,6 +13,15 @@ body{
     background-image: url(../assets/imagenes/Fondo\ negro\ triángulos\ abstractos\ _\ Foto\ Premium.jpg);
     padding: 20px;
     padding-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo2{
+    height: auto;
+    width: 85px;
 }
 
 .cabecera2{
@@ -75,20 +84,20 @@ a{
     margin-top: 20px;
 }
 
+.fig3{
+    margin-top: 15px;
+}
+
+.fig4{
+    margin-top: 70px;
+}
+
 .imgndx{
     width: 250px;
     padding: 10px;
 }
 
-.imgndx2 {
-    width: 100px;
-}
-
-.imgndx2smg{
-    width: 110px;
-}
-
-.imgndx3{
+.imgndx2{
     height: 20px;
 }
 
@@ -123,7 +132,7 @@ summary{
 
 .especificaciones{
     display: flex;
-    height: 65px;
+    height: auto;
     justify-content: space-evenly;
     width: 250px;
     border-top: solid black 1px;
@@ -131,35 +140,18 @@ summary{
 
 .especificaciones2{
     display: flex;
-    height: 30px;
+    height: auto;
     justify-content: space-evenly;
     width: 250px;
-    border-top: solid black 1px;
 }
 
 .especificaciones3{
     display: flex;
-    height: 40px;
-    justify-content: space-evenly;
-    width: 250px;
-    margin-bottom: 5px;
-}
-
-.especificaciones4{
-    display: flex;
-    height: 30px;
+    height: auto;
     justify-content: space-evenly;
     width: 250px;
     border-top: solid black 1px;
     border-bottom: solid black 1px;
-}
-
-.especificaciones5{
-    display: flex;
-    height: 80px;
-    justify-content: space-evenly;
-    width: 250px;
-    margin-bottom: 5px;   
 }
 
 .info2{
@@ -191,21 +183,6 @@ summary{
     padding-left: 10px;
     width: 100px;
     text-align: left;
-}
-
-.info5{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    font-size: 12px;
-    text-align: center;
-    padding: 0%;
-    margin: 5px;
-    width: 100px;
-    height: 40px;
-    align-items: start;
-    justify-content: start;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
